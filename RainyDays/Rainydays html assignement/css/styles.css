@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Oswald";
-    src: url(/Oswald/Oswald-VariableFont_wght.ttf);
+    src: url(/RainyDays/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
 body {
@@ -211,26 +211,6 @@ footer a {
     display: flex;
 }
 
-/* .explore-img {
-    background-image: url(../images/rsz_1.jpg);
-    display: block;
-    border: 1px solid red;
-    height: 400px;
-    background-position: center;
-    margin-inline: auto;
-    background-repeat: no-repeat;
-}
-
-.explore-img-text {
-    background-color: #000;
-    padding-left: 50vw;
-    color: #ffffff;
-    display: inline-block;
-    width: fit-content;
-} */
-
-
-
 .sales-card-container {
     background-color: var(--foundation-color);
     margin: 20px;
@@ -270,7 +250,6 @@ footer a {
     margin-bottom: 15px;
     text-decoration: none;
     color: #000;
-    font-size: 3vw;
 }
 
 .cart-container {
@@ -281,9 +260,13 @@ footer a {
     margin: 20px;
 }
 
+.cart-container h1 {
+  
+}
+
 
 .cart {
-    display: grid;
+    /* display: grid; */
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -378,7 +361,6 @@ footer a {
 } */
 
 .do-not-miss-box{
-    /* display: flex; */
     width: 70%;
     border-radius: 8px;
     background: #d3d3d3;

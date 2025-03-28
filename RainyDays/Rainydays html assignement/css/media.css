@@ -1,39 +1,6 @@
-@media (min-width: 800px) {
-    
-        /* width: 80%; */
-        
-        /* background: #d3d3d3;
-        padding: 20px;
-        border-radius: 10px;
-        margin: auto;
-    }
-
-    .summary {
-        padding: 15px;
-        text-align: left;
-        max-width: 200px;
-    }
-    
-    .summary p {
-        font-size: 18px;
-        font-weight: bold;
-    }
-    
-    .summary input {
-        max-width: fit-content;
-        padding: 5px;
-        margin:0;
-    }
-
-    .cart {
-        width: 30rem;
-    } */
-}
-
 @media (min-width: 700px) {
     nav {
         display: block;
-        border: 1px solid green;
         width: 100%;
     }
 
@@ -53,7 +20,6 @@
 
     nav a {
         display: inline-block;
-        border: 1px solid red;
     }
 
     .explore-btn {
@@ -114,10 +80,10 @@
         padding: 0px 50px 0px 50px;
     }
 
-    /* .your-cart {
+    .your-cart {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-    } */
+    }
 
     .cart-container {
         max-width: 700px;
